@@ -1,0 +1,27 @@
+{
+  "espS3": {
+    "v1": {
+      "filename": "espS3_v1_blink.bin",
+      "hash": "beadfe077f07376ec8ec64c1bda57e91fda9389ea6ca7e0b19f011f727cd80b9",
+      "size": 213280,
+      "upload_date": "2025-09-27T23:26:29.995707",
+      "notes": "Blinkeo r\u00e1pido"
+    },
+    "v2": {
+      "filename": "espS3_v2_blink.bin",
+      "hash": "9f76df157407be6f1c036f9ad1ae182e49de01f88fafdd8d2e4e867b96c60303",
+      "size": 213280,
+      "upload_date": "2025-09-27T23:27:34.730636",
+      "notes": "Blinkeo lento"
+    }
+  },
+  "dummyMCU": {
+    "v2": {
+      "filename": "dummyMCU_v2_Echidna.jpeg",
+      "hash": "5af2c81868fea56cc903f4e6f3e0c855440e9350c2c5e217b8583773c11dfd32",
+      "size": 41102,
+      "upload_date": "2025-09-30T10:46:06.193356",
+      "notes": "Hola esto es un archivo de prueba\r\n"
+    }
+  }
+}

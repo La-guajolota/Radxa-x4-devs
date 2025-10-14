@@ -1,0 +1,14 @@
+[Unit]
+Description=OTA Firmware Update Server
+After=network.target
+
+[Service]
+Type=simple
+User=nobody
+WorkingDirectory=/path/to/your/ota/server
+ExecStart=/usr/bin/python3 ota_server.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
