@@ -1,7 +1,7 @@
 # 🚀 Radxa X4 Developers Hub 🚀
 
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/113367719?s=200&v=4" alt="Radxa Logo">
+  <img src="[https://avatars.githubusercontent.com/u/113367719?s=200&v=4](https://www.cnx-software.com/wp-content/uploads/2024/07/Radxa-X4-x86-Raspberry-Pi-5-SBC.jpg)" alt="Radxa Logo">
 </p>
 
 <p align="center">
