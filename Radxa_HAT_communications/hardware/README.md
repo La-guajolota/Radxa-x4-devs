@@ -1,11 +1,18 @@
-# Hardware
+# 🛠️ Hardware Design
 
-This directory houses the hardware design files for the Radxa HAT.
+This directory houses the electronic design files for the Radxa Communications HAT.
 
-## Contents
+---
 
-The electronic design for the HAT is organized within the following sub-directory:
+## 📂 Project Directory
 
-- **HAT_communication_protocols**: This folder contains the KiCad project with the schematic and PCB layout for the HAT.
+The complete hardware design is located in the following sub-directory:
 
-Feel free to explore the project to understand the electronic components and their connections.
+-   ### 📁 `HAT_communication_protocols/`
+    > This folder contains the main **KiCad project**, which includes the schematic, PCB layout, and all associated files for the HAT.
+
+---
+
+## 🚀 Get Involved
+
+Feel free to explore the KiCad project to understand the electronic components, their connections, and the overall design. If you have suggestions for improvements or would like to contribute, please open an issue or a pull request.
