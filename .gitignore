@@ -1,0 +1,36 @@
+# IDE and editor specific files
+.vscode/
+.clangd
+
+# Lock files
+*.lck
+
+# Backup files
+*~
+*-backups/
+*.bak
+
+# Build artifacts
+*.o
+build/
+app_hello
+app_tui
+modbus_rtu
+modbus_server
+
+# Kicad cache
+fp-info-cache
+
+# Blockchain data
+my-private-blockchain/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS specific
+.DS_Store
+
+# Logs
+logs/
+*.log
