@@ -24,6 +24,9 @@ fp-info-cache
 # Blockchain data
 my-private-blockchain/
 
+# Radxa official docs
+radxa-oficial-docs/
+
 # Python cache
 __pycache__/
 *.pyc
