@@ -1361,6 +1361,206 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_02x02_Top_Bottom"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x02_Top_Bottom"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x02_Top_Bottom_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x20_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -9262,6 +9462,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 102.87) (xy 387.35 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55ea08a2-6110-4022-ae84-1ccf54ba1095")
+	)
+	(wire
+		(pts
 			(xy 78.74 54.61) (xy 78.74 62.23)
 		)
 		(stroke
@@ -9539,6 +9749,16 @@
 			(type default)
 		)
 		(uuid "6a449eca-7355-45d2-8835-fb858f36d6e2")
+	)
+	(wire
+		(pts
+			(xy 388.62 100.33) (xy 387.35 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a967cde-dfa6-4cdb-ab79-ac0efa7cbe00")
 	)
 	(wire
 		(pts
@@ -10612,6 +10832,16 @@
 	)
 	(wire
 		(pts
+			(xy 402.59 102.87) (xy 401.32 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b62601f7-69f4-495d-af1b-cf9a5aa00e65")
+	)
+	(wire
+		(pts
 			(xy 146.05 154.94) (xy 146.05 147.32)
 		)
 		(stroke
@@ -10939,6 +11169,16 @@
 			(type default)
 		)
 		(uuid "d269ecee-b631-4f5d-99e0-a8e0f0395001")
+	)
+	(wire
+		(pts
+			(xy 402.59 100.33) (xy 401.32 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3d5baff-d783-4331-9b4c-0030ca7c3560")
 	)
 	(wire
 		(pts
@@ -22489,6 +22729,16 @@
 		)
 		(uuid "15cb2ad3-51fd-464a-b159-c758a7dcbfe8")
 	)
+	(label "vc4"
+		(at 402.59 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18e0209a-6e6b-412f-b6fc-2c506375f4df")
+	)
 	(label "GPIO25"
 		(at 215.9 175.26 0)
 		(effects
@@ -22659,6 +22909,16 @@
 		)
 		(uuid "47700b40-9653-4b0c-a6d5-512543b83651")
 	)
+	(label "vc1"
+		(at 387.35 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4aeff951-dcef-4a8b-9674-3a39b5d90261")
+	)
 	(label "GPIO06"
 		(at 304.8 152.4 0)
 		(effects
@@ -22678,6 +22938,16 @@
 			(justify right bottom)
 		)
 		(uuid "4f66e31f-878a-4c19-ad40-f9d99d595b5b")
+	)
+	(label "vc2"
+		(at 387.35 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5304edec-410d-42cb-a03b-6836bcc4d792")
 	)
 	(label "LoRa_D1"
 		(at 224.79 33.02 0)
@@ -23020,6 +23290,16 @@
 			(justify right bottom)
 		)
 		(uuid "a0176664-6355-4540-bff8-79e2be32b5bf")
+	)
+	(label "vc3"
+		(at 402.59 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0b050f1-4334-421e-a5ca-f5085a9257c4")
 	)
 	(label "GPIO03"
 		(at 198.12 144.78 180)
@@ -24104,7 +24384,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 396.875 23.495 0)
 			(effects
 				(font
@@ -25089,6 +25369,79 @@
 			(project ""
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x02_Top_Bottom")
+		(at 393.7 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3252c8a3-0e09-4eab-8643-ce4723c7e09d")
+		(property "Reference" "J6"
+			(at 394.97 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PoE"
+			(at 394.97 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical"
+			(at 393.7 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 393.7 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 393.7 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2dc4a845-973e-4657-aa52-9ea34657e539")
+		)
+		(pin "4"
+			(uuid "e4258409-7dee-4e55-8104-b0b01881d2d2")
+		)
+		(pin "1"
+			(uuid "af9c7ae3-658c-4b3e-a700-f07622ae974b")
+		)
+		(pin "3"
+			(uuid "2918d8ed-67da-4b85-b764-fdaabfe37659")
+		)
+		(instances
+			(project ""
+				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -27298,7 +27651,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type101_RT01602HBWC_1x02_P5.08mm_Horizontal"
 			(at 304.8 30.48 0)
 			(effects
 				(font
@@ -29358,7 +29711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type101_RT01602HBWC_1x02_P5.08mm_Horizontal"
 			(at 154.94 134.62 0)
 			(effects
 				(font
@@ -31599,7 +31952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock_CUI:TerminalBlock_CUI_TB007-508-03_1x03_P5.08mm_Horizontal"
 			(at 152.4 35.56 0)
 			(effects
 				(font
