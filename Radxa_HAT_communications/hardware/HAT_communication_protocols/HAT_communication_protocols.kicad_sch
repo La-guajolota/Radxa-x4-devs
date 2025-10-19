@@ -5707,7 +5707,7 @@
 				)
 			)
 			(property "Footprint" "LoRa_modules:SX1278 module"
-				(at 0 0 0)
+				(at 0 -14.224 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5716,7 +5716,7 @@
 				)
 			)
 			(property "Datasheet" "https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/2R0000001Rc1/QnUuV9TviODKUgt_rpBlPz.EZA_PNK7Rpi8HA5..Sbo"
-				(at 0 0 0)
+				(at -0.508 -16.256 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9469,7 +9469,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 48.26) (xy 321.31 43.18)
+			(xy 321.31 53.34) (xy 321.31 43.18)
 		)
 		(stroke
 			(width 0)
@@ -10439,7 +10439,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 53.34) (xy 321.31 68.58)
+			(xy 321.31 58.42) (xy 321.31 68.58)
 		)
 		(stroke
 			(width 0)
@@ -22787,7 +22787,7 @@
 		)
 	)
 	(image
-		(at 292.1 -26.67)
+		(at 342.9 -25.4)
 		(uuid "c099f064-c718-4570-a7e6-a2cebbe1118b")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAyAAAAMgCAIAAABUEpE/AAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
 			"nOzdeZhU5Zk+/vfstXdVV1V3NU0D3SwiioBEdllkJCqCgtGYqKMmZtG4JJNkdDT5GicuuIwRiSYO"
@@ -24924,16 +24924,6 @@
 		)
 		(uuid "3be6e1ea-69d2-4fa1-bb2e-c1618b8d19dd")
 	)
-	(label "LoRa_D2"
-		(at 233.68 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3f76949b-0ebe-4c29-8e75-183da16e9205")
-	)
 	(label "SPI0_Tx"
 		(at 266.7 137.16 0)
 		(effects
@@ -25054,6 +25044,16 @@
 		)
 		(uuid "5f9d9442-c895-40f9-b299-cb0f4f776444")
 	)
+	(label "LoRa_D2"
+		(at 233.68 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5fb2758f-9a1a-4c83-b3e2-580049ebd811")
+	)
 	(label "COMs"
 		(at 116.84 60.96 0)
 		(effects
@@ -25165,16 +25165,6 @@
 			(justify right bottom)
 		)
 		(uuid "723893ff-aa4a-4b29-b37f-9f7318756a7c")
-	)
-	(label "LoRa_D1"
-		(at 233.68 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "740f6a8f-e363-4e9c-ad82-95c60680c318")
 	)
 	(label "SPI0_NSS"
 		(at 304.8 143.51 0)
@@ -25517,6 +25507,16 @@
 			(justify right bottom)
 		)
 		(uuid "ce422685-e6c4-4a22-967e-931fb4589bf9")
+	)
+	(label "LoRa_D1"
+		(at 233.68 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cfdfeebb-8aa1-413b-ab91-427ee9d7f990")
 	)
 	(label "GPIO26"
 		(at 215.9 170.18 0)
@@ -27604,7 +27604,6 @@
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 330.2 55.88 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27612,7 +27611,7 @@
 		(dnp no)
 		(uuid "2e873915-5af2-41ba-bc58-416422ea1fba")
 		(property "Reference" "C7"
-			(at 332.74 55.88 0)
+			(at 327.66 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27621,7 +27620,7 @@
 			)
 		)
 		(property "Value" "3.9nf"
-			(at 332.74 53.34 0)
+			(at 327.66 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27795,7 +27794,7 @@
 		(dnp no)
 		(uuid "3252c8a3-0e09-4eab-8643-ce4723c7e09d")
 		(property "Reference" "J6"
-			(at 307.848 86.36 0)
+			(at 309.88 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27803,7 +27802,7 @@
 			)
 		)
 		(property "Value" "PoE"
-			(at 311.15 86.36 0)
+			(at 313.182 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28215,8 +28214,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 321.31 50.8 0)
-		(mirror y)
+		(at 321.31 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28224,7 +28222,7 @@
 		(dnp no)
 		(uuid "39b69699-dabe-4726-a9fd-635a06e39a78")
 		(property "Reference" "C4"
-			(at 323.85 50.8 0)
+			(at 318.77 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28233,7 +28231,7 @@
 			)
 		)
 		(property "Value" "100nf"
-			(at 323.85 48.26 0)
+			(at 318.77 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28242,7 +28240,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 321.31 50.8 0)
+			(at 321.31 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28251,7 +28249,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 321.31 50.8 0)
+			(at 321.31 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28260,7 +28258,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 321.31 50.8 0)
+			(at 321.31 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
