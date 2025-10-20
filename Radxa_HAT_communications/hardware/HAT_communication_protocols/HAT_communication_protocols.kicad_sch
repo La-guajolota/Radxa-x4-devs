@@ -1361,6 +1361,126 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint_Probe"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 1.651 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Probe"
+				(at 1.651 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point (alternative probe-style design)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Probe_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0.762) (xy 0 0) (xy 0.762 1.27) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 0.635) (xy 0.635 1.397) (xy 2.413 3.175) (xy 3.175 2.413) (xy 1.397 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TestPoint_Probe_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x02_Top_Bottom"
 			(pin_names
 				(offset 1.016)
@@ -7791,7 +7911,7 @@
 	)
 	(text "Transmit (TX) Current: 120 mA (maximum, at +20 dBm output power)\n"
 		(exclude_from_sim no)
-		(at 210.82 73.152 0)
+		(at 211.582 68.072 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8012,6 +8132,12 @@
 		(uuid "51e473b0-9eb6-4aa7-be6e-c3ef0b9b646a")
 	)
 	(junction
+		(at 90.17 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53243b94-8365-4362-9dd9-cc7dec5ae875")
+	)
+	(junction
 		(at 265.43 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8054,6 +8180,12 @@
 		(uuid "67318ad3-e562-4fd7-b2a6-3d389295fce3")
 	)
 	(junction
+		(at 97.79 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68c9ee17-bd8c-4b30-b7df-b07dad59042f")
+	)
+	(junction
 		(at 354.33 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8064,12 +8196,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b511427-29c1-49f3-b8d7-d0cfa8fbc582")
-	)
-	(junction
-		(at 303.53 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ca1adf4-642e-46e5-aec6-e546479c1f9f")
 	)
 	(junction
 		(at 341.63 68.58)
@@ -8124,12 +8250,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93de516c-11fb-49d6-92bf-2518100f2e83")
-	)
-	(junction
-		(at 265.43 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97d6c743-2eed-463b-9cc2-3dd0d69ab547")
 	)
 	(junction
 		(at 106.68 33.02)
@@ -8252,6 +8372,12 @@
 		(uuid "d8833c89-9d55-4aeb-b406-238746625892")
 	)
 	(junction
+		(at 377.19 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9a499d0-1d4d-44d1-9c70-eedb30cbc61a")
+	)
+	(junction
 		(at 83.82 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8359,7 +8485,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 95.25) (xy 233.68 95.25)
+			(xy 233.68 99.06) (xy 231.14 99.06)
 		)
 		(stroke
 			(width 0)
@@ -8509,7 +8635,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 114.3) (xy 93.98 116.84)
+			(xy 90.17 114.3) (xy 90.17 116.84)
 		)
 		(stroke
 			(width 0)
@@ -8549,6 +8675,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 30.48) (xy 377.19 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08c9d363-b4a6-4227-bf1d-c79a18d89e79")
+	)
+	(wire
+		(pts
 			(xy 330.2 58.42) (xy 330.2 59.69)
 		)
 		(stroke
@@ -8566,26 +8702,6 @@
 			(type default)
 		)
 		(uuid "0a5efdb4-28d1-46fc-8175-0e409a673bc1")
-	)
-	(wire
-		(pts
-			(xy 198.12 149.86) (xy 200.66 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bd0e85b-52b4-4337-beaf-222cf819c3fe")
-	)
-	(wire
-		(pts
-			(xy 304.8 156.21) (xy 303.53 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0be268ae-aa59-46c7-9c2b-443bacf32272")
 	)
 	(wire
 		(pts
@@ -8729,7 +8845,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 85.09) (xy 233.68 85.09)
+			(xy 233.68 88.9) (xy 231.14 88.9)
 		)
 		(stroke
 			(width 0)
@@ -8879,16 +8995,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 156.21) (xy 266.7 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e5aba84-4fda-451c-92d5-9e3d683c16b7")
-	)
-	(wire
-		(pts
 			(xy 144.78 167.64) (xy 143.51 167.64)
 		)
 		(stroke
@@ -8946,6 +9052,26 @@
 			(type default)
 		)
 		(uuid "204efd73-6b57-4e70-aabd-2bfb9ffd52bf")
+	)
+	(wire
+		(pts
+			(xy 300.99 25.4) (xy 300.99 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20b17c66-bad3-406c-bc98-3bc058a24463")
+	)
+	(wire
+		(pts
+			(xy 97.79 116.84) (xy 125.73 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21a5f210-68b2-4cad-b4c7-7638bb901b13")
 	)
 	(wire
 		(pts
@@ -9026,6 +9152,16 @@
 			(type default)
 		)
 		(uuid "289e80cf-b243-48cb-9933-85a6f811f30c")
+	)
+	(wire
+		(pts
+			(xy 114.3 83.82) (xy 124.46 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28c2f37b-95aa-444a-94c6-c707d2e59c7c")
 	)
 	(wire
 		(pts
@@ -9116,6 +9252,16 @@
 			(type default)
 		)
 		(uuid "317787f7-d516-4951-971e-483c3af05a4d")
+	)
+	(wire
+		(pts
+			(xy 90.17 116.84) (xy 93.98 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3261f697-6a8f-46eb-8866-2755a7033ecf")
 	)
 	(wire
 		(pts
@@ -9359,7 +9505,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 158.75) (xy 304.8 158.75)
+			(xy 292.1 157.48) (xy 304.8 157.48)
 		)
 		(stroke
 			(width 0)
@@ -9579,7 +9725,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 116.84) (xy 125.73 116.84)
+			(xy 93.98 116.84) (xy 97.79 116.84)
 		)
 		(stroke
 			(width 0)
@@ -9989,6 +10135,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 149.86) (xy 200.66 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d9dde50-ba5f-42b6-8ff2-82b084fadfa9")
+	)
+	(wire
+		(pts
 			(xy 116.84 43.18) (xy 116.84 41.91)
 		)
 		(stroke
@@ -10059,6 +10215,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 113.03) (xy 97.79 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "713a890e-b5f5-4802-87c1-3fddffe45611")
+	)
+	(wire
+		(pts
 			(xy 281.94 41.91) (xy 281.94 48.26)
 		)
 		(stroke
@@ -10099,7 +10265,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 38.1) (xy 381 38.1)
+			(xy 374.65 38.1) (xy 377.19 38.1)
 		)
 		(stroke
 			(width 0)
@@ -10209,7 +10375,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 92.71) (xy 233.68 92.71)
+			(xy 233.68 96.52) (xy 231.14 96.52)
 		)
 		(stroke
 			(width 0)
@@ -10296,16 +10462,6 @@
 			(type default)
 		)
 		(uuid "81b6709b-bda7-4e6f-b107-90a4759bd05f")
-	)
-	(wire
-		(pts
-			(xy 124.46 80.01) (xy 124.46 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "821f6889-59d8-4f75-abd9-69cbef530031")
 	)
 	(wire
 		(pts
@@ -10429,6 +10585,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 80.01) (xy 124.46 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ba914ed-58eb-4ff9-a30b-3f246fc033bf")
+	)
+	(wire
+		(pts
 			(xy 190.5 127) (xy 200.66 127)
 		)
 		(stroke
@@ -10436,16 +10602,6 @@
 			(type default)
 		)
 		(uuid "8c6d1de6-3c8c-467c-a426-be280be54b88")
-	)
-	(wire
-		(pts
-			(xy 292.1 158.75) (xy 303.53 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cb32a8f-b805-4282-b3be-4d41e8e5402c")
 	)
 	(wire
 		(pts
@@ -10459,7 +10615,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 158.75) (xy 265.43 158.75)
+			(xy 254 157.48) (xy 266.7 157.48)
 		)
 		(stroke
 			(width 0)
@@ -10549,7 +10705,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 90.17) (xy 233.68 90.17)
+			(xy 233.68 93.98) (xy 231.14 93.98)
 		)
 		(stroke
 			(width 0)
@@ -10749,23 +10905,13 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 82.55) (xy 233.68 82.55)
+			(xy 233.68 86.36) (xy 231.14 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9feb2542-609d-40a9-9d07-9373d6e8b158")
-	)
-	(wire
-		(pts
-			(xy 265.43 156.21) (xy 265.43 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0dfe1a0-0628-4aa8-8a53-e315d72f6849")
 	)
 	(wire
 		(pts
@@ -10889,7 +11035,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 87.63) (xy 233.68 87.63)
+			(xy 233.68 91.44) (xy 231.14 91.44)
 		)
 		(stroke
 			(width 0)
@@ -10939,6 +11085,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 162.56) (xy 200.66 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aebb8ffa-5ca9-410e-b6bd-07f6363aa6cd")
+	)
+	(wire
+		(pts
 			(xy 116.84 43.18) (xy 130.81 43.18)
 		)
 		(stroke
@@ -10949,7 +11105,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 116.84) (xy 93.98 116.84)
+			(xy 63.5 116.84) (xy 90.17 116.84)
 		)
 		(stroke
 			(width 0)
@@ -10966,6 +11122,16 @@
 			(type default)
 		)
 		(uuid "b24a6626-c3c6-4a0f-9c11-4af23e8cfab9")
+	)
+	(wire
+		(pts
+			(xy 377.19 38.1) (xy 381 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3233c65-a422-4cb3-8d94-a903059278fc")
 	)
 	(wire
 		(pts
@@ -11056,6 +11222,16 @@
 			(type default)
 		)
 		(uuid "be0d396a-b3ff-45b1-aeac-e0e77ffe72b6")
+	)
+	(wire
+		(pts
+			(xy 215.9 80.01) (xy 215.9 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef2b6a9-1ead-476b-87b4-71c41774b35d")
 	)
 	(wire
 		(pts
@@ -11269,16 +11445,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 158.75) (xy 254 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1c034ec-05fd-4f7d-80c6-b17116a06c55")
-	)
-	(wire
-		(pts
 			(xy 189.23 30.48) (xy 198.12 30.48)
 		)
 		(stroke
@@ -11346,16 +11512,6 @@
 			(type default)
 		)
 		(uuid "d4b73e1d-6c93-41fa-9455-badd760675c4")
-	)
-	(wire
-		(pts
-			(xy 303.53 156.21) (xy 303.53 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d59dc0f8-ad28-4a55-8723-3a0890583a9c")
 	)
 	(wire
 		(pts
@@ -11596,6 +11752,16 @@
 			(type default)
 		)
 		(uuid "e48467b1-7d03-4b85-aa7e-0586f37bf417")
+	)
+	(wire
+		(pts
+			(xy 210.82 82.55) (xy 215.9 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e52362ae-8038-4f8c-9eb5-992c3d65ef20")
 	)
 	(wire
 		(pts
@@ -11906,16 +12072,6 @@
 			(type default)
 		)
 		(uuid "f7bb44d9-8407-4a00-883c-98ead6c4497c")
-	)
-	(wire
-		(pts
-			(xy 198.12 162.56) (xy 200.66 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8502218-4c2c-43fc-8abd-9c5b9ed0e834")
 	)
 	(wire
 		(pts
@@ -25094,6 +25250,16 @@
 		)
 		(uuid "4aeff951-dcef-4a8b-9674-3a39b5d90261")
 	)
+	(label "CAN_INT"
+		(at 187.96 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4b32227c-34cb-437e-866b-eeeadaa7b095")
+	)
 	(label "GPIO06"
 		(at 304.8 152.4 0)
 		(effects
@@ -25144,6 +25310,16 @@
 		)
 		(uuid "5646dc57-feb3-44ef-ae49-9d8f4f204516")
 	)
+	(label "GPIO11"
+		(at 266.7 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "571347fb-b19b-4c1b-be0f-9f1d54d0f489")
+	)
 	(label "GPIO23"
 		(at 215.9 139.7 0)
 		(effects
@@ -25155,7 +25331,7 @@
 		(uuid "5f9d9442-c895-40f9-b299-cb0f4f776444")
 	)
 	(label "LoRa_D2"
-		(at 233.68 92.71 180)
+		(at 231.14 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25227,7 +25403,7 @@
 		(uuid "6b81215d-419b-4e48-b8a5-8c4fdefb5981")
 	)
 	(label "LoRa_D5"
-		(at 233.68 82.55 180)
+		(at 231.14 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25357,7 +25533,7 @@
 		(uuid "84573891-6de7-4eb1-915f-fce19d60b890")
 	)
 	(label "LoRa_D3"
-		(at 233.68 85.09 180)
+		(at 231.14 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25447,7 +25623,7 @@
 		(uuid "97209f16-4099-4a5d-ae9e-3cad61cc6f5f")
 	)
 	(label "LoRa_RST"
-		(at 254 158.75 180)
+		(at 254 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25476,6 +25652,16 @@
 		)
 		(uuid "a0b050f1-4334-421e-a5ca-f5085a9257c4")
 	)
+	(label "GPIO07"
+		(at 304.8 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a13a86d3-e39f-4535-9b2c-c34960a72efc")
+	)
 	(label "GPIO03"
 		(at 198.12 144.78 180)
 		(effects
@@ -25487,7 +25673,7 @@
 		(uuid "a4487f8b-76bf-46fd-a1c9-1a4149f404b4")
 	)
 	(label "LoRa_D4"
-		(at 233.68 87.63 180)
+		(at 231.14 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25588,8 +25774,18 @@
 		)
 		(uuid "b66983d2-d612-4b77-a2b2-7868e02ad493")
 	)
+	(label "LoRa_RST"
+		(at 187.96 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bcac598a-2757-40ed-adfb-77664c38d17b")
+	)
 	(label "LoRa_D0"
-		(at 233.68 95.25 180)
+		(at 231.14 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25619,7 +25815,7 @@
 		(uuid "ce422685-e6c4-4a22-967e-931fb4589bf9")
 	)
 	(label "LoRa_D1"
-		(at 233.68 90.17 180)
+		(at 231.14 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25671,7 +25867,7 @@
 		(uuid "d719b1fa-917d-4cdd-8f52-6ffd7e16bac0")
 	)
 	(label "CAN_INT"
-		(at 292.1 158.75 180)
+		(at 292.1 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25870,7 +26066,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08297382-ac0d-4deb-b95f-33eef5e0dae1")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 74.168 46.99 90)
 			(effects
 				(font
@@ -25958,7 +26154,7 @@
 		(instances
 			(project ""
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "U3")
+					(reference "U1")
 					(unit 6)
 				)
 			)
@@ -25973,7 +26169,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a0cf2b1-37c1-454b-8e95-7c44b4f7d000")
-		(property "Reference" "D8"
+		(property "Reference" "D6"
 			(at 294.894 36.322 90)
 			(effects
 				(font
@@ -26043,7 +26239,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "D8")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -26059,7 +26255,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ab19364-eaf6-40e9-bfa5-847fe8d52a77")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR020"
 			(at 134.62 185.42 0)
 			(effects
 				(font
@@ -26110,7 +26306,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR015")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -26125,7 +26321,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bb610b6-53d2-4a23-93c9-db4b93d39982")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 33.02 48.26 0)
 			(effects
 				(font
@@ -26213,7 +26409,7 @@
 		(instances
 			(project ""
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -26229,7 +26425,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10f8142d-948f-451d-8450-59628e322720")
-		(property "Reference" "C11"
+		(property "Reference" "C3"
 			(at 56.134 119.126 90)
 			(effects
 				(font
@@ -26283,7 +26479,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "C11")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -26299,7 +26495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12f18540-34ae-4df4-b639-a82f9af42467")
-		(property "Reference" "D7"
+		(property "Reference" "D4"
 			(at 119.38 50.7999 90)
 			(effects
 				(font
@@ -26353,7 +26549,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "D7")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -26368,7 +26564,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13059ac8-58d6-4d59-aca6-87042b3dc33c")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR019"
 			(at 125.73 156.21 0)
 			(effects
 				(font
@@ -26419,7 +26615,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR032")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -26435,7 +26631,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "163624ce-07fc-4d79-a482-ac1273da4c23")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at 81.28 29.2099 0)
 			(effects
 				(font
@@ -26489,7 +26685,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -26504,7 +26700,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16f4ca46-a16e-4002-b9a6-eba4be7253b9")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR038"
 			(at 228.6 162.56 0)
 			(effects
 				(font
@@ -26555,7 +26751,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR08")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -26735,7 +26931,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18ac4966-76e4-4312-acf6-c06cb0818ad4")
-		(property "Reference" "R15"
+		(property "Reference" "R14"
 			(at 332.74 62.2299 0)
 			(effects
 				(font
@@ -26789,7 +26985,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "R15")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -26874,7 +27070,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b8303f5-0e74-4a3f-986a-04c1ba895bb2")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR029"
 			(at 184.15 175.26 0)
 			(effects
 				(font
@@ -26925,7 +27121,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR010")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -27005,7 +27201,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ef49ef3-d447-476d-b7a6-70cdaf31ca4a")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR033"
 			(at 218.44 127 0)
 			(effects
 				(font
@@ -27056,7 +27252,7 @@
 		(instances
 			(project ""
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR011")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -27140,7 +27336,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ffa0cd8-44fd-4546-af89-5558bb802a40")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR037"
 			(at 228.6 149.86 0)
 			(effects
 				(font
@@ -27191,7 +27387,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR06")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -27277,7 +27473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20f16c57-58db-40e2-a7e6-909680b5b961")
-		(property "Reference" "U6"
+		(property "Reference" "U4"
 			(at 127.8733 124.46 0)
 			(effects
 				(font
@@ -27350,7 +27546,7 @@
 		(instances
 			(project ""
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "U6")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -27367,7 +27563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2171a20f-c917-48c6-9f8b-8d0b5c8f6472")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR018"
 			(at 128.27 167.64 0)
 			(effects
 				(font
@@ -27418,7 +27614,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR017")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -27433,7 +27629,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25227f34-6df9-4555-a1ac-ec1b6768f17c")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR06"
 			(at 63.5 176.53 0)
 			(effects
 				(font
@@ -27484,7 +27680,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR031")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -27500,7 +27696,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28d65f2d-6856-4420-9373-b3d1db09ee62")
-		(property "Reference" "C3"
+		(property "Reference" "C18"
 			(at 368.3 59.69 0)
 			(effects
 				(font
@@ -27554,7 +27750,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "C3")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -27562,7 +27758,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_Pin")
-		(at 241.3 90.17 180)
+		(at 238.76 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27570,8 +27766,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b31a61f-8573-4976-b1e2-c90078b59c58")
-		(property "Reference" "J5"
-			(at 242.57 87.6299 0)
+		(property "Reference" "J4"
+			(at 240.03 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27580,7 +27776,7 @@
 			)
 		)
 		(property "Value" "LoRa_DIO"
-			(at 242.57 90.1699 0)
+			(at 240.03 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27589,7 +27785,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
-			(at 241.3 90.17 0)
+			(at 238.76 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27598,7 +27794,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 241.3 90.17 0)
+			(at 238.76 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27607,7 +27803,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 241.3 90.17 0)
+			(at 238.76 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27636,7 +27832,7 @@
 		(instances
 			(project ""
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -27721,7 +27917,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e873915-5af2-41ba-bc58-416422ea1fba")
-		(property "Reference" "C7"
+		(property "Reference" "C16"
 			(at 327.66 55.88 0)
 			(effects
 				(font
@@ -27775,7 +27971,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "C7")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -27790,7 +27986,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2fa8634d-5b62-474b-b5a1-0dc25c32c190")
-		(property "Reference" "L2"
+		(property "Reference" "L1"
 			(at 370.84 35.814 90)
 			(effects
 				(font
@@ -27889,7 +28085,7 @@
 		(instances
 			(project ""
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "L2")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -27977,7 +28173,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32e2d695-9259-4851-bd6c-f7d892c73152")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR08"
 			(at 78.74 82.55 0)
 			(effects
 				(font
@@ -28028,7 +28224,72 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR023")
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 114.3 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3383ffa4-19ab-4670-a751-bcbd9fd1dc31")
+		(property "Reference" "TP2"
+			(at 112.7125 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 112.7125 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 114.3 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 114.3 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15b6ddee-8ff6-457d-9e5d-f54032dd0193")
+		)
+		(instances
+			(project ""
+				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -28044,7 +28305,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35796a2b-97fc-4f94-b0b2-21d48ce232a1")
-		(property "Reference" "C10"
+		(property "Reference" "C4"
 			(at 76.454 13.716 90)
 			(effects
 				(font
@@ -28098,7 +28359,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "C10")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -28114,7 +28375,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "373a28a2-d689-461e-8b34-24e2aea5cc54")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR013"
 			(at 106.68 21.59 0)
 			(effects
 				(font
@@ -28164,7 +28425,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR027")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -28179,7 +28440,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37bc48eb-7b67-4242-8fd6-152f5e6deea1")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR027"
 			(at 194.31 147.32 0)
 			(effects
 				(font
@@ -28229,7 +28490,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR013")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -28245,7 +28506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39ae0b7f-6ffd-4100-aded-baaeff8c8372")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 97.3933 22.86 0)
 			(effects
 				(font
@@ -28317,7 +28578,7 @@
 		(instances
 			(project ""
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -28332,7 +28593,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39b69699-dabe-4726-a9fd-635a06e39a78")
-		(property "Reference" "C4"
+		(property "Reference" "C15"
 			(at 318.77 55.88 0)
 			(effects
 				(font
@@ -28386,7 +28647,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "C4")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -28402,7 +28663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39f57d42-6c7b-4165-84b3-ac83a1d9bd02")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR016"
 			(at 124.46 83.82 0)
 			(effects
 				(font
@@ -28452,7 +28713,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR018")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -28468,7 +28729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "429c5b6d-1b04-41d5-b277-8aec9f0cc342")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR041"
 			(at 233.68 38.1 0)
 			(effects
 				(font
@@ -28519,7 +28780,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR026")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -28534,7 +28795,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "433476b0-8eb2-4f1a-b14a-62e111453428")
-		(property "Reference" "R12"
+		(property "Reference" "R11"
 			(at 279.4 39.3701 0)
 			(effects
 				(font
@@ -28588,7 +28849,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "R12")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -28604,7 +28865,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "448caefe-4b29-4561-b81c-e27f8ef39c37")
-		(property "Reference" "C12"
+		(property "Reference" "C7"
 			(at 118.364 119.126 90)
 			(effects
 				(font
@@ -28658,7 +28919,74 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "C12")
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 300.99 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "464fa339-2ddf-483a-a7df-56893ef9a32b")
+		(property "Reference" "TP4"
+			(at 304.8 22.5424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 304.8 25.0824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 306.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 306.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 300.99 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "635f947a-140f-460d-8d7b-0d8e16de0532")
+		)
+		(instances
+			(project "HAT_communication_protocols"
+				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -28674,7 +29002,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c5ba6d9-33ca-4e00-926e-8b3cb5c69389")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR015"
 			(at 110.49 124.46 0)
 			(effects
 				(font
@@ -28725,7 +29053,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR035")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -28741,7 +29069,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4cb83d93-3a1f-4617-9c56-d73fa5c6ddb5")
-		(property "Reference" "R17"
+		(property "Reference" "R16"
 			(at 359.664 50.8 90)
 			(effects
 				(font
@@ -28795,7 +29123,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "R17")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -28880,7 +29208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "530ee665-4039-46ea-bb77-ddb20e8a4eca")
-		(property "Reference" "D6"
+		(property "Reference" "D3"
 			(at 119.38 36.8299 90)
 			(effects
 				(font
@@ -28934,7 +29262,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "D6")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -29059,7 +29387,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "566620f0-94f6-4436-a7de-824e2f4ebda3")
-		(property "Reference" "F1"
+		(property "Reference" "F3"
 			(at 269.24 30.226 0)
 			(effects
 				(font
@@ -29111,7 +29439,7 @@
 		(instances
 			(project ""
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "F1")
+					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -29126,7 +29454,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57fc72b1-d20a-4e7f-9510-4dcd0dbf8615")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR024"
 			(at 182.88 48.26 0)
 			(effects
 				(font
@@ -29177,7 +29505,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR041")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -29193,7 +29521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5825cfcb-41ba-4c24-b22c-623d4eb3a19d")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 138.43 73.66 90)
 			(effects
 				(font
@@ -29281,7 +29609,7 @@
 		(instances
 			(project ""
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "U3")
+					(reference "U1")
 					(unit 7)
 				)
 			)
@@ -29296,8 +29624,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5864108a-9339-43a9-b849-75fd79544ade")
-		(property "Reference" "RadxaGPIO1"
-			(at 205.74 117.602 0)
+		(property "Reference" "Radxa-IO1"
+			(at 205.74 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29306,7 +29634,7 @@
 			)
 		)
 		(property "Value" "Conn_02x20_Odd_Even"
-			(at 205.74 120.142 0)
+			(at 205.74 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29464,7 +29792,7 @@
 		(instances
 			(project ""
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "RadxaGPIO1")
+					(reference "Radxa-IO1")
 					(unit 1)
 				)
 			)
@@ -29480,7 +29808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c56f868-9cbd-4483-8c96-78cdff563d16")
-		(property "Reference" "D9"
+		(property "Reference" "D8"
 			(at 303.53 46.6724 90)
 			(effects
 				(font
@@ -29534,7 +29862,7 @@
 		(instances
 			(project ""
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "D9")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -29549,7 +29877,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c6f3f9c-d374-470e-bf6e-995ae9bdcd0f")
-		(property "Reference" "R1"
+		(property "Reference" "R17"
 			(at 383.54 52.0699 0)
 			(effects
 				(font
@@ -29603,7 +29931,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "R1")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -29618,7 +29946,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5cffc2b1-75bc-4d79-8982-dcdfcfcd225b")
-		(property "Reference" "U2"
+		(property "Reference" "U7"
 			(at 343.7733 30.48 0)
 			(effects
 				(font
@@ -29690,7 +30018,7 @@
 		(instances
 			(project ""
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "U2")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -29706,7 +30034,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f635697-478e-44db-880b-87914c3ecaea")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR07"
 			(at 68.58 19.05 0)
 			(effects
 				(font
@@ -29757,7 +30085,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR028")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -29773,7 +30101,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "624f8012-60c0-46ae-b41c-dc4ab46d0af6")
-		(property "Reference" "D1"
+		(property "Reference" "D9"
 			(at 383.54 62.5474 90)
 			(effects
 				(font
@@ -29836,7 +30164,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "D1")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -29949,7 +30277,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64d72439-30a7-4adf-8155-4ce6084becd1")
-		(property "Reference" "R13"
+		(property "Reference" "R12"
 			(at 279.4 57.1501 0)
 			(effects
 				(font
@@ -30003,7 +30331,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "R13")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -30018,7 +30346,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6536b905-8b5c-4b71-946d-027fe23b40ea")
-		(property "Reference" "C9"
+		(property "Reference" "C5"
 			(at 81.28 69.8562 0)
 			(effects
 				(font
@@ -30072,7 +30400,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "C9")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -30087,7 +30415,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ad45a03-8faf-4c74-b4d3-4bf97beaeeb1")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR031"
 			(at 201.93 101.6 0)
 			(effects
 				(font
@@ -30138,7 +30466,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR044")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -30154,7 +30482,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b8907e5-18c6-4359-b1c8-6a94b9f5083d")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 264.16 19.05 90)
 			(effects
 				(font
@@ -30208,7 +30536,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -30223,7 +30551,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ccb7032-9e53-4e9b-905a-c862b8b33288")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR034"
 			(at 218.44 129.54 0)
 			(effects
 				(font
@@ -30274,7 +30602,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR046")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -30290,7 +30618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6eb26d66-b863-4abd-8785-75b8c5e1aa51")
-		(property "Reference" "D2"
+		(property "Reference" "D7"
 			(at 290.83 53.3399 90)
 			(effects
 				(font
@@ -30344,7 +30672,7 @@
 		(instances
 			(project ""
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "D2")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -30359,7 +30687,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "717f42de-5aa5-403f-bdd5-a30d72b03fe6")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR039"
 			(at 228.6 167.64 0)
 			(effects
 				(font
@@ -30410,7 +30738,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR09")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -30426,7 +30754,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "740b8177-a02b-4a9c-b39a-cd8b7c8a89a0")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR05"
 			(at 48.26 124.46 0)
 			(effects
 				(font
@@ -30477,7 +30805,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR033")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -30492,7 +30820,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74362aa6-d3b9-4c6a-a6d4-76e9ab9c1827")
-		(property "Reference" "C16"
+		(property "Reference" "C13"
 			(at 243.586 41.91 0)
 			(effects
 				(font
@@ -30546,7 +30874,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "C16")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -30562,7 +30890,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79b81ee2-0132-4a0a-a4d5-02bca5c6e546")
-		(property "Reference" "F2"
+		(property "Reference" "F1"
 			(at 138.43 27.94 0)
 			(effects
 				(font
@@ -30614,7 +30942,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "F2")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -30629,7 +30957,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7aa8f884-ecdc-4332-9d63-041e8199829e")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR028"
 			(at 184.15 157.48 0)
 			(effects
 				(font
@@ -30680,7 +31008,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR07")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -30759,7 +31087,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7cb94dca-d145-4343-bd2d-58c5cd402a9f")
-		(property "Reference" "C1"
+		(property "Reference" "C14"
 			(at 314.96 38.3539 0)
 			(effects
 				(font
@@ -30813,7 +31141,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "C1")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -30829,7 +31157,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "803ba64d-f1cd-4a8a-b842-7e0538e62181")
-		(property "Reference" "R16"
+		(property "Reference" "R15"
 			(at 351.79 57.1499 0)
 			(effects
 				(font
@@ -30883,7 +31211,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "R16")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -30898,7 +31226,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80e381db-284a-44d7-8ef1-e940f15027c8")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR044"
 			(at 344.17 97.79 0)
 			(effects
 				(font
@@ -30949,7 +31277,74 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR02")
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 215.9 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80f645b5-8836-48d9-beb9-7b9a00dfa844")
+		(property "Reference" "TP3"
+			(at 219.71 77.1524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 219.71 79.6924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 220.98 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 215.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c04366a5-51f0-4bd0-8978-c3871174eabc")
+		)
+		(instances
+			(project "HAT_communication_protocols"
+				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -30965,7 +31360,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "832e6384-7c10-41df-b776-2e7a6e46653f")
-		(property "Reference" "F3"
+		(property "Reference" "F2"
 			(at 138.43 48.26 0)
 			(effects
 				(font
@@ -31017,7 +31412,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "F3")
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -31111,7 +31506,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "876aeb87-179c-441e-b5f5-dac34bc1d138")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR014"
 			(at 106.68 63.5 0)
 			(effects
 				(font
@@ -31162,7 +31557,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR030")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -31178,7 +31573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87922eb4-0b04-44b2-9874-a4973a26af68")
-		(property "Reference" "U7"
+		(property "Reference" "U6"
 			(at 201.93 76.2 0)
 			(effects
 				(font
@@ -31233,7 +31628,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "U7")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -31248,7 +31643,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8816e595-aba8-4cc0-91af-c33c236aa397")
-		(property "Reference" "C18"
+		(property "Reference" "C12"
 			(at 213.36 87.6362 0)
 			(effects
 				(font
@@ -31302,7 +31697,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "C18")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -31318,7 +31713,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b049781-aa21-48c9-a3a3-f83b74f29fb6")
-		(property "Reference" "C6"
+		(property "Reference" "C9"
 			(at 123.19 172.7262 0)
 			(effects
 				(font
@@ -31372,7 +31767,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "C6")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -31388,7 +31783,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d48a3d1-0f21-44f1-b26f-efd6747f1099")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR03"
 			(at 43.18 82.55 0)
 			(effects
 				(font
@@ -31439,7 +31834,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR019")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -31447,7 +31842,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 93.98 114.3 0)
+		(at 90.17 114.3 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -31456,8 +31851,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8dd89948-04bc-421c-bfb9-7e13649e6ae5")
-		(property "Reference" "#PWR043"
-			(at 93.98 118.11 0)
+		(property "Reference" "#PWR09"
+			(at 90.17 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31466,7 +31861,7 @@
 			)
 		)
 		(property "Value" "PS+5v"
-			(at 93.98 109.22 0)
+			(at 90.17 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31474,7 +31869,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 114.3 0)
+			(at 90.17 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31483,7 +31878,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 114.3 0)
+			(at 90.17 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31492,7 +31887,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 93.98 114.3 0)
+			(at 90.17 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31506,7 +31901,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR043")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -31586,7 +31981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fb88409-c566-4ecf-bfd5-a2e3870e601b")
-		(property "Reference" "U5"
+		(property "Reference" "U2"
 			(at 65.6433 124.46 0)
 			(effects
 				(font
@@ -31689,7 +32084,7 @@
 		(instances
 			(project ""
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "U5")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -31705,7 +32100,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "914b6652-439d-4e6b-80bf-e11f41711f61")
-		(property "Reference" "C14"
+		(property "Reference" "C1"
 			(at 29.21 148.082 90)
 			(effects
 				(font
@@ -31759,7 +32154,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "C14")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -31776,7 +32171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "919fb505-4781-4300-a364-d9682be61b88")
-		(property "Reference" "U1"
+		(property "Reference" "U5"
 			(at 134.62 161.29 0)
 			(effects
 				(font
@@ -31831,7 +32226,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "U1")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -31846,7 +32241,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93af6dfc-a6b4-43e3-bb15-2b9973cc6f19")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR036"
 			(at 228.6 142.24 0)
 			(effects
 				(font
@@ -31897,7 +32292,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR05")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -31913,7 +32308,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93eb68fc-f2b6-4b62-a6de-e240430652cd")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR017"
 			(at 124.46 97.79 0)
 			(effects
 				(font
@@ -31964,7 +32359,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR022")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -32043,7 +32438,7 @@
 		(lib_id "Graphic:Logo_Open_Hardware_Small")
 		(at 400.05 261.62 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
@@ -32086,15 +32481,6 @@
 			)
 		)
 		(property "Description" "Open Hardware logo, small"
-			(at 400.05 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 400.05 261.62 0)
 			(effects
 				(font
@@ -32185,7 +32571,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aafc8488-073e-4f71-ab2b-c2c3b604639e")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 59.69 48.768 0)
 			(effects
 				(font
@@ -32273,7 +32659,7 @@
 		(instances
 			(project ""
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "U3")
+					(reference "U1")
 					(unit 5)
 				)
 			)
@@ -32289,7 +32675,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abc6af56-044b-4749-a7e0-7f66bc547df7")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR021"
 			(at 140.97 167.64 0)
 			(effects
 				(font
@@ -32339,7 +32725,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR01")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -32355,7 +32741,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac22aab2-18c9-441f-87e9-b59d746a7c7a")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR01"
 			(at 21.59 46.99 0)
 			(effects
 				(font
@@ -32405,7 +32791,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR025")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -32420,7 +32806,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "acad9f8c-f7fd-4687-bd52-bf6816c6c34c")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR046"
 			(at 381 77.47 0)
 			(effects
 				(font
@@ -32471,7 +32857,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR039")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -32557,7 +32943,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "afa60389-57c1-4cf3-bceb-afecc9c7cb54")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR04"
 			(at 50.8 82.55 0)
 			(effects
 				(font
@@ -32608,7 +32994,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR020")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -32623,7 +33009,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b286dcb7-09ce-4676-9e32-3ac3d35380a6")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR035"
 			(at 228.6 132.08 0)
 			(effects
 				(font
@@ -32674,7 +33060,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR03")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -32689,7 +33075,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b660f630-1e59-4fdd-a037-6ef54837cdaf")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR025"
 			(at 194.31 127 0)
 			(effects
 				(font
@@ -32739,7 +33125,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR012")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -32754,7 +33140,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b86517ea-2799-4ffd-916d-4ad6a2f8e0d1")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR022"
 			(at 152.4 97.79 0)
 			(effects
 				(font
@@ -32805,7 +33191,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR021")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -32820,7 +33206,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9b2e1f4-b2e2-4372-942e-8e2127850b14")
-		(property "Reference" "D3"
+		(property "Reference" "D5"
 			(at 271.78 48.2599 90)
 			(effects
 				(font
@@ -32874,7 +33260,7 @@
 		(instances
 			(project ""
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "D3")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -32891,7 +33277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf5f2792-5510-4530-97b7-6e554dd99f70")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR010"
 			(at 87.63 162.56 0)
 			(effects
 				(font
@@ -32942,7 +33328,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR037")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -33037,7 +33423,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1644252-ed1d-41be-9e85-d087c150b673")
-		(property "Reference" "R5"
+		(property "Reference" "R1"
 			(at 19.05 46.9899 0)
 			(effects
 				(font
@@ -33091,7 +33477,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "R5")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -33175,7 +33561,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2d569c5-189c-453f-93a4-bd54c990e4ef")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 47.244 42.672 90)
 			(effects
 				(font
@@ -33265,7 +33651,7 @@
 		(instances
 			(project ""
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "U3")
+					(reference "U1")
 					(unit 3)
 				)
 			)
@@ -33281,7 +33667,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c71c46a0-57bc-4111-9e97-a412a510c939")
-		(property "Reference" "C13"
+		(property "Reference" "C2"
 			(at 29.21 164.338 90)
 			(effects
 				(font
@@ -33335,7 +33721,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "C13")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -33350,7 +33736,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca4796b1-e7ee-47ad-bad5-85dbd764081c")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR023"
 			(at 182.88 30.48 0)
 			(effects
 				(font
@@ -33401,7 +33787,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR042")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -33416,7 +33802,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca80b14f-c7f1-454f-9406-901cabddcf0b")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR011"
 			(at 93.98 130.81 0)
 			(effects
 				(font
@@ -33467,7 +33853,74 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR024")
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 97.79 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccfa9d38-a2d5-469b-be66-3b38f71b98af")
+		(property "Reference" "TP1"
+			(at 101.6 110.1724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 101.6 112.7124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 102.87 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 97.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53cfe7a1-96fd-4382-b1ce-540317e37f3f")
+		)
+		(instances
+			(project "HAT_communication_protocols"
+				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -33482,7 +33935,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce3b444f-6035-4ba0-a089-f25fae546bb3")
-		(property "Reference" "C5"
+		(property "Reference" "C10"
 			(at 146.05 172.7262 0)
 			(effects
 				(font
@@ -33536,7 +33989,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "C5")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -33551,7 +34004,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfedfc8f-a531-423b-b8db-40c909ccce0a")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 68.326 28.702 0)
 			(effects
 				(font
@@ -33639,7 +34092,7 @@
 		(instances
 			(project ""
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "U3")
+					(reference "U1")
 					(unit 4)
 				)
 			)
@@ -33725,7 +34178,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da0b7d5a-ff58-4cdf-976c-dc6eaaa45b01")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 50.546 28.956 0)
 			(effects
 				(font
@@ -33813,7 +34266,7 @@
 		(instances
 			(project ""
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "U3")
+					(reference "U1")
 					(unit 2)
 				)
 			)
@@ -33829,7 +34282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da79eadf-cb1a-4c66-a7a7-7071735c2e55")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR032"
 			(at 210.82 85.09 0)
 			(effects
 				(font
@@ -33879,7 +34332,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR014")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -33961,7 +34414,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dcd9dc97-a37c-4739-8a84-034594ccc582")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR02"
 			(at 16.51 156.21 0)
 			(effects
 				(font
@@ -34012,7 +34465,74 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR036")
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 377.19 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dde062c9-4c3d-4f31-aa14-8a9d446545dc")
+		(property "Reference" "TP5"
+			(at 381 27.6224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 381 30.1624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 382.27 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 382.27 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 377.19 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac20d599-d919-47e2-94d5-5b38b017eb50")
+		)
+		(instances
+			(project "HAT_communication_protocols"
+				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -34029,7 +34549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df604fba-49ab-4925-8faf-03e8020150a3")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR030"
 			(at 193.04 85.09 0)
 			(effects
 				(font
@@ -34079,7 +34599,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR016")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -34094,7 +34614,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e323a601-68ab-41e3-9613-39d741c20797")
-		(property "Reference" "C17"
+		(property "Reference" "C6"
 			(at 96.52 119.3862 0)
 			(effects
 				(font
@@ -34148,7 +34668,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "C17")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -34163,7 +34683,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8b9cf4a-401f-4ce9-b905-ac4ddf3a37a7")
-		(property "Reference" "D4"
+		(property "Reference" "D1"
 			(at 73.66 57.15 0)
 			(effects
 				(font
@@ -34233,7 +34753,7 @@
 		(instances
 			(project ""
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "D4")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -34382,7 +34902,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb00502c-e980-4b77-ba4a-0b6f3ce95003")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR026"
 			(at 184.15 137.16 0)
 			(effects
 				(font
@@ -34433,7 +34953,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR04")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -34449,7 +34969,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec1686d9-1a5c-450b-8385-1baf3a3ca3f3")
-		(property "Reference" "C19"
+		(property "Reference" "C11"
 			(at 190.5 87.6362 0)
 			(effects
 				(font
@@ -34503,7 +35023,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "C19")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -34519,7 +35039,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ede94238-a428-47cb-a94c-487c741fea2c")
-		(property "Reference" "C15"
+		(property "Reference" "C17"
 			(at 356.108 32.766 90)
 			(effects
 				(font
@@ -34573,7 +35093,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "C15")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -34729,7 +35249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f61acd83-e89c-488c-8bde-ac461adf4c6f")
-		(property "Reference" "D5"
+		(property "Reference" "D2"
 			(at 119.38 22.8599 90)
 			(effects
 				(font
@@ -34783,7 +35303,7 @@
 		(instances
 			(project ""
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "D5")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -34798,7 +35318,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6372b16-763d-4af5-bb92-3f4ceaf550d3")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR043"
 			(at 341.63 87.63 0)
 			(effects
 				(font
@@ -34849,7 +35369,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR038")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -34864,7 +35384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6c45a19-c1d1-466a-9975-373e78a4ac6f")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR042"
 			(at 325.12 30.48 0)
 			(effects
 				(font
@@ -34915,7 +35435,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR034")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -35004,7 +35524,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f804e253-82a9-4515-96dc-4b0c537297b3")
-		(property "Reference" "R14"
+		(property "Reference" "R13"
 			(at 322.58 31.7499 0)
 			(effects
 				(font
@@ -35058,7 +35578,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "R14")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -35074,7 +35594,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f810a5d5-d39d-46c0-a8b4-881ced62ba81")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR012"
 			(at 95.25 63.5 0)
 			(effects
 				(font
@@ -35125,7 +35645,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "#PWR029")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -35141,7 +35661,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fef2d0de-0a1b-4d10-a742-38a8a2c70aee")
-		(property "Reference" "R11"
+		(property "Reference" "R6"
 			(at 85.09 164.846 90)
 			(effects
 				(font
@@ -35195,7 +35715,7 @@
 		(instances
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
-					(reference "R11")
+					(reference "R6")
 					(unit 1)
 				)
 			)
