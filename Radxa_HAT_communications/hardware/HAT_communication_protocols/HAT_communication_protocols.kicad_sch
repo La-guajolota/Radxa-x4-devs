@@ -7906,12 +7906,6 @@
 		(uuid "5cb8b00c-9abb-4b0b-bdf8-2caaf9f3461b")
 	)
 	(junction
-		(at 214.63 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62860f13-f03d-4683-99cf-d7047673f079")
-	)
-	(junction
 		(at 34.29 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10489,7 +10483,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 129.54) (xy 214.63 129.54)
+			(xy 213.36 129.54) (xy 222.25 129.54)
 		)
 		(stroke
 			(width 0)
@@ -10506,16 +10500,6 @@
 			(type default)
 		)
 		(uuid "97bc78df-89ac-4cbd-8fab-f981d70d4ee4")
-	)
-	(wire
-		(pts
-			(xy 222.25 127) (xy 214.63 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98004ddb-ef81-4fa1-8ebe-997bf2b93972")
 	)
 	(wire
 		(pts
@@ -10719,16 +10703,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 129.54) (xy 214.63 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a979c41d-f6d3-46f5-bd11-b168f509626f")
-	)
-	(wire
-		(pts
 			(xy 215.9 165.1) (xy 213.36 165.1)
 		)
 		(stroke
@@ -10856,16 +10830,6 @@
 			(type default)
 		)
 		(uuid "b24a6626-c3c6-4a0f-9c11-4af23e8cfab9")
-	)
-	(wire
-		(pts
-			(xy 214.63 127) (xy 213.36 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2bd2e2a-6580-4c83-a57f-83cfecaa9ca2")
 	)
 	(wire
 		(pts
@@ -11606,6 +11570,16 @@
 			(type default)
 		)
 		(uuid "e8e3cdf5-eeb7-4f39-9e8f-ca7fb853ffd0")
+	)
+	(wire
+		(pts
+			(xy 213.36 127) (xy 222.25 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e91995f0-e984-42d2-9602-c666d58f54a6")
 	)
 	(wire
 		(pts
@@ -26904,7 +26878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5v_gpio"
+		(property "Value" "5v_pin2"
 			(at 225.552 127 90)
 			(effects
 				(font
@@ -27090,6 +27064,7 @@
 	(symbol
 		(lib_id "Device:R_US")
 		(at 106.68 27.94 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27097,7 +27072,7 @@
 		(dnp no)
 		(uuid "2086f78a-a09f-44bd-9738-fddc48fc90a5")
 		(property "Reference" "R7"
-			(at 109.22 26.6699 0)
+			(at 104.14 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27106,7 +27081,7 @@
 			)
 		)
 		(property "Value" "4K7"
-			(at 109.22 29.2099 0)
+			(at 104.14 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27115,7 +27090,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 107.696 28.194 90)
+			(at 105.664 28.194 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28077,7 +28052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3v_gpio"
+		(property "Value" "3.3v_pin17"
 			(at 182.626 147.066 90)
 			(effects
 				(font
@@ -30098,6 +30073,72 @@
 			(project "HAT_communication_protocols"
 				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 222.25 129.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ccb7032-9e53-4e9b-905a-c862b8b33288")
+		(property "Reference" "#PWR046"
+			(at 218.44 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5v_pin4"
+			(at 225.552 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 222.25 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "277b8a4b-acc9-4cb8-b2de-ea69d4aabb14")
+		)
+		(instances
+			(project "HAT_communication_protocols"
+				(path "/c2c24d05-340c-4010-9daf-2c9fe65e9278"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -32448,7 +32489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3v_gpio"
+		(property "Value" "3.3v_pin1"
 			(at 182.88 127 90)
 			(effects
 				(font
