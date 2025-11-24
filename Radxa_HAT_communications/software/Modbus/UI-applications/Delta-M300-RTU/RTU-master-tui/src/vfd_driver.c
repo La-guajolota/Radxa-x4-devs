@@ -76,18 +76,25 @@ void send_control_command(modbus_t *ctx, const setpoint_t *sp, telemetry_t *tlm)
     
     if (modbus_write_register(ctx, REG_CONTROL_WORD, cmd_val) == -1) {
         tlm->comm_error = true;
+        tlm->last_msg_code = COMM_FAIL;
         snprintf(tlm->last_msg, 64, "ERR: Write CMD Fail");
     } else {
         tlm->comm_error = false;
+        tlm->last_msg_code = COMM_SUCCESS;
+        snprintf(tlm->last_msg, 64, "Sent CMD: %s, DIR: %s", 
+                 sp->run_state ? "RUN" : "STOP",
+                 sp->direction ? "REV" : "FWD");
     }
 }
 
 void send_freq_command(modbus_t *ctx, const setpoint_t *sp, telemetry_t *tlm) {
     if (modbus_write_register(ctx, REG_FREQ_CMD, sp->target_freq) == -1) {
         tlm->comm_error = true;
+        tlm->last_msg_code = COMM_FREQ_FAIL;
         snprintf(tlm->last_msg, 64, "ERR: Write Freq Fail");
     } else {
         tlm->comm_error = false;
+        tlm->last_msg_code = SET_FREQ;
         snprintf(tlm->last_msg, 64, "Set Freq: %.2f Hz", sp->target_freq / 100.0);
     }
 }

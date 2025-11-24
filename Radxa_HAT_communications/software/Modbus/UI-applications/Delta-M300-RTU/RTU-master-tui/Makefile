@@ -4,37 +4,42 @@
 
 # Compiler variables
 CC = gcc
-CFLAGS = -Wall -Wextra -std=gnu99 -I/usr/include/modbus -I/usr/include/ncurses
-LIBS = -lmodbus -lrt -lncurses
+CFLAGS = -Wall -Wextra -std=gnu99 -Iinclude -I/usr/include/modbus -I/usr/include/ncurses -I/usr/include/paho-mqtt3c
+LIBS = -lmodbus -lrt -lncurses -lpaho-mqtt3c
 
 # Project variables
 TARGET = delta_m300_vfd_rtu_tui
 
-# Added modular source files
-SOURCES = main.c vfd_driver.c tui_display.c
-OBJECTS = $(SOURCES:.c=.o)
+# Sources in src/, build objects into build/, binary in bin/
+SOURCES = src/main.c src/vfd_driver.c src/tui_display.c src/mqtt_driver.c
+OBJECTS = $(patsubst src/%.c, build/%.o, $(SOURCES))
+
+BUILD_DIR = build
+BIN_DIR = bin
 
 # Default rule
-all: $(TARGET)
+all: $(BIN_DIR)/$(TARGET)
 
 # Build main executable
-$(TARGET): $(OBJECTS)
-	$(CC) $(OBJECTS) -o $(TARGET) $(LIBS)
-	@echo "✅ Build successful: $(TARGET)"
+$(BIN_DIR)/$(TARGET): $(OBJECTS)
+	@mkdir -p $(BIN_DIR)
+	$(CC) $(OBJECTS) -o $(BIN_DIR)/$(TARGET) $(LIBS)
+	@echo "✅ Build successful: $(BIN_DIR)/$(TARGET)"
 
-# Compile object files
-%.o: %.c
+# Compile object files from src/ into build/
+$(BUILD_DIR)/%.o: src/%.c
+	@mkdir -p $(BUILD_DIR)
 	$(CC) $(CFLAGS) -c $< -o $@
 
 # Clean generated files
 clean:
-	rm -f $(OBJECTS) $(TARGET)
+	rm -rf $(BUILD_DIR) $(BIN_DIR) $(TARGET) *.o
 	@echo "🧹 Build files removed"
 
 # Install dependencies (Ubuntu/Debian)
 install-deps:
 	sudo apt update	
-	sudo apt install -y libmodbus-dev build-essential libncurses-dev
+	sudo apt install -y libmodbus-dev build-essential libncurses-dev libpaho-mqtt3c-dev
 	@echo "📦 Dependencies installed"
 
 # Run the application

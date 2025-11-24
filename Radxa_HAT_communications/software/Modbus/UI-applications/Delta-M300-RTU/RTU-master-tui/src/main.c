@@ -14,6 +14,7 @@
 #include <ncurses.h>
 
 #include "common.h"
+#include "mqtt_driver.h"
 #include "vfd_driver.h"
 #include "tui_display.h"
 
@@ -31,6 +32,11 @@ void handle_shutdown(int signum) {
 
 int main() {
     modbus_config_t modbus_conf;
+
+    MQTTClient client;
+    MQTTClient_connectOptions conn_opts = MQTTClient_connectOptions_initializer;
+    MQTTClient_message pubmsg = MQTTClient_message_initializer;
+    MQTTClient_deliveryToken token;
     
     // State instances
     setpoint_t sp = { .run_state = false, .direction = false, .target_freq = 0 };
@@ -40,19 +46,24 @@ int main() {
     signal(SIGINT, handle_shutdown);
     signal(SIGTERM, handle_shutdown);
 
-    // Modbus Configuration
+    // Modbus Configuration 
     modbus_conf.device = "/dev/ttyS4";
     modbus_conf.baud = 38400;
     modbus_conf.parity = 'N';
     modbus_conf.data_bit = 8;
     modbus_conf.stop_bit = 1;
-    modbus_conf.slave_id = 2;
+    modbus_conf.slave_id = 2;   
 
     // Initialize Modbus
     if (init_modbus_connection(&modbus_conf) != 0) {
         return EXIT_FAILURE;
     }
-
+    
+    // Initialize MQTT
+    if (init_mqtt_client(&client, &conn_opts) != EXIT_SUCCESS) {
+        return EXIT_FAILURE;
+    }
+    
     // Initialize UI
     init_tui();
 
@@ -68,6 +79,7 @@ int main() {
         // 2. Read Telemetry (approx every 200ms)
         if (cycle_count++ > 10) {
             update_telemetry(modbus_conf.ctx, &tlm);
+            publish_telemetry(&client, &pubmsg, &token, &tlm);
             cycle_count = 0;
         }
 
@@ -87,6 +99,9 @@ int main() {
     // Cleanup Modbus
     modbus_close(modbus_conf.ctx);
     modbus_free(modbus_conf.ctx);
+
+    // MQTT Cleanup
+    mqtt_disconnect(&client);
     
     printf("Shutdown complete.\n");
 
