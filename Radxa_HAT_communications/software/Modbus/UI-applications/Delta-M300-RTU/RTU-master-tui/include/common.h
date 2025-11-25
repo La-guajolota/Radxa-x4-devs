@@ -12,7 +12,7 @@
 #include <MQTTClient.h>
 
 // ==== MQTT Configuration ====
-#define ADDRESS         "tcp://192.168.1.110:1883"      ///< MQTT Broker Address (use 'tcp://' for Eclipse Paho)
+#define ADDRESS         "tcp://localhost:1883"      ///< MQTT Broker Address (use 'tcp://' for Eclipse Paho)
 #define CLIENTID        "VFD_Control_Client_001"        ///< Unique Client ID
 #define TOPIC_TELEMETRY "vdf/telemetry"                 ///< Telemetry Topic
 #define TOPIC_COMMUNICATION   "vdf/communication"       ///< Communication  Topic

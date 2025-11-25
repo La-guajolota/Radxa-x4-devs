@@ -67,11 +67,10 @@ void send_control_command(modbus_t *ctx, const setpoint_t *sp, telemetry_t *tlm)
     }
 
     // Direction Bits
-    // REV: bit 4 set to 1 (0x10)
-    if (sp->direction) { // REV
+    if (sp->direction) { // REV 0b1000xx bit5 and bit4  
         cmd_val |= (1 << 4); 
-    } else { // FWD
-        cmd_val |= (0 << 4); 
+    } else {             // FWD 0b0100xx bit5 and bit4
+        cmd_val |= (1 << 5); 
     }
     
     if (modbus_write_register(ctx, REG_CONTROL_WORD, cmd_val) == -1) {
